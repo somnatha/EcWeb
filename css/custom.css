@@ -118,37 +118,37 @@
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) inset;
     color: #004990;
     display: block;
-    left: 379px;
+    left: -120px;
     opacity: 1;
     padding: 20px;
     position: absolute;
     text-align: left;
-    top: 350px;
+    top: -135px;
     width: 245px;
 }
 #circle2:hover span.infotxt2, #circle2-fr:hover span.infotxt2 {
-    left: 212px;
-    top: 412px;
+    left: 0px;
+    top: -115px;
 }
 #circle3:hover span.infotxt3, #circle3-fr:hover span.infotxt3 {
-    left: 38px;
-    top: 365px;
+    left: 125px;
+    top: -85px;
 }
 #circle4:hover span.infotxt4, #circle4-fr:hover span.infotxt4 {
-    left: -21px;
-    top: 188px;
+    left: -25px;
+    top: 150px;
 }
 #circle5:hover span.infotxt5, #circle5-fr:hover span.infotxt5 {
     left: 213px;
     top: -72px;
 }
 #circle6:hover span.infotxt6, #circle6-fr:hover span.infotxt6 {
-    left: 374px;
-    top: 27px;
+    left: 150px;
+    top: 70px;
 }
 #circle7:hover span.infotxt7, #circle7-fr:hover span.infotxt7 {
-    left: 485px;
-    top: 190px;
+    left: -180px;
+    top: 150px;
 }
 #circle1, #circle2, #circle3, #circle4, #circle5, #circle6, #circle7 {
     background:url(../img/clientcare-icons.png) no-repeat scroll 0 0 transparent;
