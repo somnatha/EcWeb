@@ -90,7 +90,7 @@
 	min-height:600px;
     position: relative;
 }
-.cc-text h2{font:normal 24px Arial, Helvetica, sans-serif; color:#2f67b1; margin:0px; padding:0px; line-height:26px; text-align:center;}
+
 .cc-text, .cc-text-fr {
     height: 80px;
     left: 265px;
@@ -98,6 +98,7 @@
     text-align: center;
     top: 335px;
     width: 150px;
+	font:normal 24px Arial, Helvetica, sans-serif; color:#2f67b1; margin:0px; padding:0px; line-height:26px; text-align:center;
 }
 .cc-text-fr {
     top: 328px;
@@ -260,7 +261,377 @@
 }	
 @media screen and (max-width: 840px) {
 .btn_wrapper{width:90%; margin:0 auto;} 
-}		
+}
+@media screen and (max-width: 680px) {
+#client-care, #client-care-fr {
+    background:url(../img/clientcare2-bg.png) no-repeat scroll 141px 154px transparent;
+	min-height:600px;
+    position: relative;
+}
+.cc-text, .cc-text-fr {
+    height: 80px;
+    left: 210px;
+    position: absolute;
+    text-align: center;
+    top: 278px;
+    width: 150px;
+	font:normal 24px Arial, Helvetica, sans-serif; color:#2f67b1; margin:0px; padding:0px; line-height:26px;
+}
+.cc-text-fr {
+    top: 328px;
+}
+
+#circle1, #circle1-fr {
+    left: 75px;
+    position: absolute;
+    top: 65px;
+}
+
+#circle2, #circle2-fr {
+    background-position: -140px 0;
+    left: 215px;
+    position: absolute;
+    top: 13px;
+}
+#circle3, #circle3-fr {
+    background-position: -280px 0;
+    left: 355px;
+    position: absolute;
+    top: 60px;
+}
+#circle4, #circle4-fr {
+    background-position: -420px 0;
+    left: 390px;
+    position: absolute;
+    top: 205px;
+}
+#circle5, #circle5-fr {
+    background-position: -560px 0;
+    left: 271px;
+    position: absolute;
+    top: 497px;
+}
+#circle6, #circle6-fr {
+    background-position: -700px 0;
+    left: 85px;
+    position: absolute;
+    top: 320px;
+}
+#circle7, #circle7-fr {
+    background-position: -560px 0;
+    left: 0;
+    position: absolute;
+    top: 195px;
+}
+#circle1:hover span.infotxt1, #circle2:hover span.infotxt2, #circle3:hover span.infotxt3, #circle4:hover span.infotxt4, #circle5:hover span.infotxt5, #circle6:hover span.infotxt6, #circle1-fr:hover span.infotxt1, #circle2-fr:hover span.infotxt2, #circle3-fr:hover span.infotxt3, #circle4-fr:hover span.infotxt4, #circle5-fr:hover span.infotxt5, #circle6-fr:hover span.infotxt6, #circle7:hover span.infotxt7, #circle7-fr:hover span.infotxt7 {
+    background: url("images/tex2res5.png") repeat scroll 0 0 transparent;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) inset;
+    color: #004990;
+    display: block;
+    left: 170px;
+    opacity: 1;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    top: 310px;
+    width: 245px;
+}
+#circle2:hover span.infotxt2, #circle2-fr:hover span.infotxt2 {
+    left: 40px;
+    top: 362px;
+}
+#circle3:hover span.infotxt3, #circle3-fr:hover span.infotxt3 {
+    left: -110px;
+    top: 315px;
+}
+#circle4:hover span.infotxt4, #circle4-fr:hover span.infotxt4 {
+    left: -150px;
+    top: 170px;
+}
+#circle5:hover span.infotxt5, #circle5-fr:hover span.infotxt5 {
+    left: 213px;
+    top: -72px;
+}
+#circle6:hover span.infotxt6, #circle6-fr:hover span.infotxt6 {
+    left: 155px;
+    top: 55px;
+}
+#circle7:hover span.infotxt7, #circle7-fr:hover span.infotxt7 {
+    left: 238px;
+    top: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 555px) {
+#client-care, #client-care-fr {
+    background:none;
+	min-height:600px;
+    position: relative;
+}
+.cc-text, .cc-text-fr {
+    height: 80px;
+    left: 150px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 50%;
+	font:normal 24px Arial, Helvetica, sans-serif; color:#2f67b1; margin:0px; padding:0px; line-height:26px; text-align:center;
+}
+.cc-text-fr {
+    top: 328px;
+}
+
+#circle1, #circle1-fr {
+    left: 5%;
+    position: absolute;
+    top: 50px;
+}
+
+#circle2, #circle2-fr {
+    background-position: -140px 0;
+    left: 5%;
+    position: absolute;
+    top: 200px;
+}
+#circle3, #circle3-fr {
+    background-position: -280px 0;
+    left: 5%;
+    position: absolute;
+    top: 350px;
+}
+#circle4, #circle4-fr {
+    background-position: -420px 0;
+    left: 65%;
+    position: absolute;
+    top: 50px;
+}
+#circle5, #circle5-fr {
+    background-position: -560px 0;
+    left: 65%;
+    position: absolute;
+    top: 200px;
+}
+#circle6, #circle6-fr {
+    background-position: -700px 0;
+    left: 65%;
+    position: absolute;
+    top: 200px;
+}
+#circle7, #circle7-fr {
+    background-position: -560px 0;
+    left: 65%;
+    position: absolute;
+    top: 350px;
+}
+ 
+}
+
+
+
+
+@media screen and (max-width: 430px) {
+#client-care, #client-care-fr {
+    background:none;
+	min-height:500px;
+    position: relative;
+}
+.cc-text, .cc-text-fr {
+    height: 80px;
+    left: 78px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 65%;
+	font:normal 24px Arial, Helvetica, sans-serif; color:#2f67b1; margin:0px; padding:0px; line-height:26px; text-align:center;
+}
+.cc-text-fr {
+    top: 328px;
+}
+
+#circle1, #circle1-fr {
+    left: 5%;
+    position: absolute;
+    top: 50px;
+}
+
+#circle2, #circle2-fr {
+    background-position: -140px 0;
+    left: 5%;
+    position: absolute;
+    top: 200px;
+}
+#circle3, #circle3-fr {
+    background-position: -280px 0;
+    left: 5%;
+    position: absolute;
+    top: 350px;
+}
+#circle4, #circle4-fr {
+    background-position: -420px 0;
+    left: 55%;
+    position: absolute;
+    top: 50px;
+}
+#circle5, #circle5-fr {
+    background-position: -560px 0;
+    left: 55%;
+    position: absolute;
+    top: 200px;
+}
+#circle6, #circle6-fr {
+    background-position: -700px 0;
+    left: 55%;
+    position: absolute;
+    top: 200px;
+}
+#circle7, #circle7-fr {
+    background-position: -560px 0;
+    left: 55%;
+    position: absolute;
+    top: 350px;
+}
+ 
+}
+
+@media screen and (max-width: 335px) {
+#client-care, #client-care-fr {
+    background:none;
+	min-height:500px;
+    position: relative;
+}
+.cc-text, .cc-text-fr {
+    height: 80px;
+    left: 15px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 90%;
+	font:normal 24px Arial, Helvetica, sans-serif; color:#2f67b1; margin:0px; padding:0px; line-height:26px; text-align:center;
+}
+.cc-text-fr {
+    top: 328px;
+}
+
+#circle1, #circle1-fr {
+    left: 0px;
+    position: absolute;
+    top: 50px;
+}
+
+#circle2, #circle2-fr {
+    background-position: -140px 0;
+    left: 0px;
+    position: absolute;
+    top: 200px;
+}
+#circle3, #circle3-fr {
+    background-position: -280px 0;
+    left: 0px;
+    position: absolute;
+    top: 350px;
+}
+#circle4, #circle4-fr {
+    background-position: -420px 0;
+    left: 52%;
+    position: absolute;
+    top: 50px;
+}
+#circle5, #circle5-fr {
+    background-position: -560px 0;
+    left: 52%;
+    position: absolute;
+    top: 200px;
+}
+#circle6, #circle6-fr {
+    background-position: -700px 0;
+    left: 52%;
+    position: absolute;
+    top: 200px;
+}
+#circle7, #circle7-fr {
+    background-position: -560px 0;
+    left: 52%;
+    position: absolute;
+    top: 350px;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 @media screen and (max-width: 516px) {
 .btn_wrapper p{font-size:26px !important; text-align:center !important;} 
 }	

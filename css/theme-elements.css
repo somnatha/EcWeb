@@ -727,7 +727,7 @@ div.featured-box-quaternary div.box-content {
 /* Feature Box */
 div.feature-box {
 	clear: both;
-	margin:0px 0px 30px 0px;
+	margin:0px 0px 15px 0px;
 }
 
 div.feature-box div.feature-box-icon {
@@ -741,7 +741,7 @@ div.feature-box div.feature-box-icon {
 	height: 65px;
 	line-height: 65px;
 	margin-right: 10px;
-	margin-bottom:70px;
+	margin-bottom:30px;
 	position: relative;
 	text-align: center;
 	top: 5px;
@@ -750,6 +750,7 @@ div.feature-box div.feature-box-icon {
 
 div.feature-box div.feature-box-info {
 	padding-left: 50px;
+	padding-top:10px;
 }
 
 div.feature-box div.feature-box-icon i.image-icon {
